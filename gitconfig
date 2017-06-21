@@ -1,0 +1,17 @@
+[user]
+	email = craig9@gmail.com
+	name = Craig Marshall
+[alias]
+    # %h  = abbreviated commit hash
+    # %d  = ref names (branches, etc.)
+    # %s  = subject
+    # %cr = committer date, relative
+    # %cn = committer name
+
+    lg = log --graph --date=relative --full-history --all --color \
+            --pretty=format:'%C(red)%h%C(reset)\t %C(auto)%d%C(reset) %s (%C(yellow)%cn%C(reset), %C(cyan)%cd%C(reset))'
+
+[push]
+	default = simple
+[credential]
+	username = craig9
