@@ -1,5 +1,5 @@
 # dotfiles
-My configs for tmux, vim and so on.
+My configs for tmux, vim and midnight commander.
 
 ## How to use
 
