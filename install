@@ -2,6 +2,7 @@
 
 echo "This script assumes you git cloned the dotfiles repository to ~/dotfiles"
 
+mv ~/.config/mc ~/.config/mcbackup
 ln -s ~/dotfiles/config/mc ~/.config/mc
 ln -s ~/dotfiles/gitconfig ~/.gitconfig
 ln -s ~/dotfiles/tmux.conf ~/.tmux.conf
